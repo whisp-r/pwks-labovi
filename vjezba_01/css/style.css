@@ -10,6 +10,9 @@ body {
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
+
+  background-color: rgb(243, 243, 243);
+
 }
 
 div {
@@ -29,10 +32,6 @@ nav {
   align-content: center;
 
   z-index: 1;
-}
-
-main {
-  background-color: rgb(243, 243, 243);
 }
 
 #two-col {
@@ -140,4 +139,12 @@ p {
   display: block;
   text-decoration: none;
   font-size: 2.5rem;
+}
+
+/* articles */
+#articles { 
+  background-color: #f3e6e6;
+}
+#articles hr {
+  opacity: 0.2;
 }
