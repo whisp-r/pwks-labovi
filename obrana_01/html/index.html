@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Adress Calculator</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="center">
+        <form>
+        <label for="ip_address">IP Address: </label>
+        <input
+          name="ip_address"
+          id="ip_address"
+          type="text"
+          placeholder="192.168.0.1"
+        />
+        <br>
+        <label>Submask: / </label>
+        <input
+          name="ip_submask"
+          id="ip_submask"
+          type="text"
+          placeholder="24"
+        />
+
+        <p id="AM">AM: <p id="AM_out"></p></p>
+        <p id="BA">BA: <p id="BA_out"></p></p>
+        <p id="IA">IA: <p id="IA_out"></p></p>
+        <p id="ZA">ZA: <p id="ZA_out"></p></p>
+        <p id="BRRAC">BRRAC: <p id="BRRAC_out"></p></p>
+        <p id="ip_error"></p>
+        <p id="submask_error"></p>
+        </div>
+    </form>
+    </main>
+
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

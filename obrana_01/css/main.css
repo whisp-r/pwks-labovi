@@ -1,0 +1,26 @@
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #0b5d5d2a;
+}
+
+.center {
+    width: 40%; /* Could be anything, but 75% works here. */
+    margin: 0 auto; /* This is what center the content div itself. */
+    /* border: 1px solid red; */
+    text-align: left;
+    margin-top: 10%;
+}
+.center * {
+    margin-bottom:1rem;
+}
+
+#ip_error, #submask_error {
+    color: red;
+    font-size: 1rem;
+}
